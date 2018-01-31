@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class='container-fluid'>
+				<div class='navbar-header'>
+					<a class='navbar-brand' href="#">VDeal Mobie</a>
+					<button class='navbar-toggle' data-toggle='collapse' data-target='#navbarToggle'>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                    
+				</div>
+				<div class='collapse navbar-collapse' id='navbarToggle'>
+					<ul class='nav nav-tabs'>
+						<li><a href='index.html' onclick="flipkart()">Flipkart</a></li>
+						<li><a href='amazon.html' onclick="amazon()">Amazon</a></li>
+                       <li><a href='Medlife.html' onclick="amazon()">Medlife</a></li>
+                        <li><a href='Medlife.html' onclick="amazon()">TATA Cliq</a></li>
+                        <li><a href='bigbasket.html' onclick="amazon()">BigBasket</a></li>
+                       
+						<li class='navbar-right'>
+							<button class='navbar-btn btn btn-primary'>
+                                <a href='https://api.whatsapp.com/send?phone=919535147600&text=Hello+VDeal+Mobi+I+Want+To+Join+Your+Broadcast+List+MY+NAME+IS' onclick='contactUs()' style='color: white'>Whatsapp us</a>
+                            </button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+        
+	<br><br>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-md-6' id='amazon' style="display: block;">
+                    <div class='panel panel-default'>
+                        <div class='panel-heading'><h3>Amazon</h3></div>
+                        <div class='panel-body'>
+                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Expert Cooling Solutions
+                        </em></small>
+                            
+                            <div>
+                                <ul>
+                                    <li>Discription</li>
+                                    Explain
+                                </ul>
+                                
+                                <a href='https://www.amazon.com' onclick="manyMore()">many more.</a>
+                                <br><br>
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+                <div id='gallery' style="display: none;">
+                    Amazon
+                </div>
+             </div>
+         </div>
+        
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-md-6' id='amazon' style="display: block;">
+                    <div class='panel panel-default'>
+                        <div class='panel-heading'><h3>Amazon</h3></div>
+                        <div class='panel-body'>
+                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Expert Cooling Solutions
+                        </em></small>
+                            
+                            <div>
+                                <ul>
+                                    <li>Discription</li>
+                                    Explain
+                                </ul>
+                                
+                                <a href='https://www.amazon.com' onclick="manyMore()">many more.</a>
+                                <br><br>
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+                <div id='gallery' style="display: none;">
+                    Amazon
+                </div>
+             </div>
+         </div>
+		<script>
+			function flipkart() {
+                $("#flipkart").show();
+            }
+		</script>
+	</body>
+</html>
