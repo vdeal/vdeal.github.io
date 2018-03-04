@@ -3,6 +3,47 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  border-radius: 6px;
+  background-color: #99ffff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  width: 110px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
 	
         
     </head>
@@ -24,9 +65,9 @@
 						<li><a href='amazon.html' onclick="amazon()">Amazon</a></li>
                        <li><a href='Medlife.html' onclick="amazon()">Medlife</a></li>
                         <li><a href='tatacliq.html' onclick="amazon()">TATA Cliq</a></li>
-                        <li><a href='bigbasket.html' onclick="amazon()">BigBasket</a></li>
+                        <li><a href='bigbasket.html' onclick="amazon()">Coupon Code's</a></li>
                         <li><a href='ReferEarn.html' onclick="amazon()">Refer&Earn</a></li>
-                        <li><a href='otheroffers.html' onclick="amazon()">Other Offers</a></li>
+                        <li><a href='otheroffers.html' onclick="amazon()">Other LOOTs</a></li>
                         <li><a href='FlashSALE.html' onclick="amazon()">Flash SALE!</a></li>
                         
 						<li class='navbar-right'>
@@ -34,7 +75,7 @@
                             
                              <button class='navbar-btn btn btn-primary'>
                              
-                                <a  href='https://www.instagram.com/a_custm_pro/' onclick='contactUs()' style='color: antiquewhite'><img src="VDeal/images/instagram.png" width="25" height="22"></a>
+                                <a  href='https://www.instagram.com/a_custm_pro/' target='_blank' onclick='contactUs()' style='color: antiquewhite'><img src="images/instagram.png" width="25" height="22"></a>
                                  
                             </button>
                             
@@ -42,15 +83,15 @@
                             <button class='navbar-btn btn btn-primary'>
                                  
                                  
-                                <a  href='http://www.youtube.com/c/VTechMedia' onclick='contactUs()' style='color: antiquewhite'><img src="VDeal/images/youtube.png" width="25" height="22"></a> 
+                                <a  href='http://www.youtube.com/c/VTechMedia' target='_blank' onclick='contactUs()' style='color: antiquewhite'><img src="images/youtube.png" width="25" height="22"></a> 
                             </button>
                             
                                           
                             <button  class='navbar-btn btn btn-primary'> 
-                                <a href='https://api.whatsapp.com/send?phone=919535147600&text=Hello+VDeal+Mobi+I+Want+To+Join+Your+Broadcast+List+MY+NAME+IS' onclick='contactUs()' style='color: white'><img src="VDeal/images/whatsapp-logo-PNG-Transparent.png" width="25" height="22"></a>
+                                <a href='https://api.whatsapp.com/send?phone=919535147600&text=Hello+VDeal+Mobi+I+Want+To+Join+Your+Broadcast+List+MY+NAME+IS' target='_blank' onclick='contactUs()' style='color: white'><img src="images/whatsapp-logo-PNG-Transparent.png" width="25" height="22"></a>
                             </button>
-                           
                             
+                           
 						</li>
 					</ul>
 				</div>
@@ -60,6 +101,44 @@
 	<br><br>
         <div class='container-fluid'>
             <div class='row'>
+                
+                
+                <div class='col-md-3' id='flipkart' style="display: block;">
+                    
+                    <div class='panel panel-default'>
+                        <div class='panel-heading'><h4>HONOR 9 Lite</h4></div>
+                        
+                        <div class='panel-body'>
+                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Flipkart
+                        </em></small>
+                            <div>
+                                <ul>
+                                    <li>EVERY Wednesday 12 NOON</li>
+                                    BEST PHONE WITH 4 CAMERA's
+                                    64GB ₹14,999.
+                                    32GB ₹10,999.
+                                </ul>
+                                
+                                <body>
+<button class="button">
+    
+    <a href='https://dl.flipkart.com/dl/redmi-5a-82480036-store?affid=abvagehol' target='_blank'>
+        <span style="font-weight:bold">
+            BUY Now
+        </span>
+    </a>
+    </button>
+
+</body>
+                                <br><br>
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+               
+                
+                
                 
                 
                 <div class='col-md-3' id='flipkart' style="display: block;">
@@ -78,103 +157,69 @@
                                     3GB/ 32GB ₹6,999.
                                 </ul>
                                 
-                                <a href='https://dl.flipkart.com/dl/redmi-5a-82480036-store?affid=abvagehol' onclick="BUY NOW">BUY NOW</a>
-                                <br><br>
-                            </div>
-                         </div>
-                     </div>
-                  </div>
-               
-                
-                <div class='col-md-3' id='flipkart' style="display: block;">
-                    <div class='panel panel-default'>
-                        <div class='panel-heading'><h4><span class='glyphicon glyphicon-earphone'>&nbsp;</span>Moto X4</h4></div>
-                        
-                        <div class='panel-body'>
-                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Flipkart
-                        </em></small>
-                            <div>
-                                <ul>
-                                    <li>6GB Ram @ ₹24,999</li>
-                                    <li>IP68 Waterproof</li>
-                                    <li>Dual Camera</li>
-                                    
-                                </ul>
+                                <body>
+<button class="button">
+    
+    <a href='https://dl.flipkart.com/dl/redmi-5a-82480036-store?affid=abvagehol' target='_blank'>
+        <span style="font-weight:bold">
+            BUY Now
+        </span>
+    </a>
+    </button>
+
+</body>
                                 
-                                <a href='https://dl.flipkart.com/dl/moto-x4-6gb-41301888-store?affid=abvagehol' onclick="BUY NOW">BUY NOW</a>
+                                
+                            
                                 <br><br>
                             </div>
                          </div>
                      </div>
                   </div>
-                
-                
-                
-                
-                
-                
                 
                 
                 
                 <div class='col-md-3' id='flipkart' style="display: block;">
                     
                     <div class='panel panel-default'>
-                        <div class='panel-heading'><h4>Moto G5 Plus</h4></div>
+                        <div class='panel-heading'><h4>Redmi Y1</h4></div>
                         
                         <div class='panel-body'>
-                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Flipkart
+                            <small><em style="color: red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Amazon
                         </em></small>
                             <div>
                                 <ul>
-                                    <li>Flat ₹6,000 off</li>
+                                    <li>NOW @ ₹8,999 ₹1,000 OFF</li>
                                     
-                                    NOW @ ₹10,999
                                 </ul>
                                 
-                                <a href='https://dl.flipkart.com/dl/moto-g5-plus-fine-gold-32-gb/p/itmes2zjvwfncxxr?iid=M_2c527cd7-ebc1-4839-80d1-49006e08dfbb_4.R53GL4MNGU&ppt=Homepage&lid=LSTMOBEQHMGED7F9CZ2KTTROW&pid=MOBEQHMGED7F9CZ2&affid=abvagehol&ssid=rc60213dq80000001517409648730&ppn=Homepage' onclick="BUY NOW">BUY NOW</a>
+                                <body>
+<button class="button">
+    
+    <a href='https://www.amazon.in/HSA/pages/default/ref=as_li_ss_tl?pageId=2A503928-E807-4A99-84DB-0546DCCC2489&store_ref=SPONSORED_SEARCH_ACTAGF4U38P45H&store_ref=SPONSORED_SEARCH_ACTAGF4U38P45H&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=1575436447&pd_rd_wg=hQLqv&pf_rd_r=WBBMBZW1K05ZD1B4QJCJ&pf_rd_s=desktop-sx-top-slot&pf_rd_t=301&pd_rd_w=3N3Jo&pf_rd_i=redmi+y1+mobile+32gb+gold&pd_rd_r=82827c10-3f08-4c86-9212-c266f8b0dae4&hsa_cr_id=2065435480302&linkCode=ll2&tag=s04c0-21&linkId=df769a19c1fa34115df5a103c639463e' target='_blank'>
+        <span style="font-weight:bold">
+            BUY Now
+        </span>
+    </a>
+    </button>
+
+</body>
+                                
+                              
                                 <br><br>
                             </div>
                          </div>
                      </div>
                   </div>
+                
                
                 
-                <div class='col-md-3' id='flipkart' style="display: block;">
-                    <div class='panel panel-default'>
-                        <div class='panel-heading'><h4><span class='glyphicon glyphicon-earphone'>&nbsp;</span>BEST Deals on Mobile</h4></div>
-                        
-                        <div class='panel-body'>
-                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Flipkart
-                        </em></small>
-                            <div>
-                                <ul>
-                                    <li>Mobile phones for your BUDGET</li>
-                                    ALL Offers in one Link
-                                    
-                                </ul>
-                                
-                                <a href='https://dl.flipkart.com/dl/mobile-phones-store?affid=abvagehol' onclick="BUY NOW">BUY NOW</a>
-                                
-                                <br><br>
-                            </div>
-                         </div>
-                     </div>
-                  </div>
                 
-                
-                
-                
-                        <div class='container-fluid'>
-            <div class='row'>
-                
-                
-                <div class='col-md-3' id='flipkart' style="display: block;">
+                  <div class='col-md-3' id='flipkart' style="display: block;">
                     
                     <div class='panel panel-default'>
-                        <div class='panel-heading'><h4>DAMAGE Protection For Phones</h4></div>
+                        <div class='panel-heading'><h4>Mi A1</h4></div>
                         
                         <div class='panel-body'>
                             <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -182,82 +227,20 @@
                         </em></small>
                             <div>
                                 <ul>
-                                    <li>AS Low as 500 to PAY</li>
-                                    USE This Offer NOW
+                                    <li>IN STOCK</li>
+                                    NOW @ ₹13,99 ₹1,000 OFF.
                                 </ul>
-                                
-                                <a href='https://dl.flipkart.com/dl/moto-x4-6gb-41301888-store?affid=abvagehol' onclick="BUY NOW">BUY NOW</a>
-                                <br><br>
-                            </div>
-                         </div>
-                     </div>
-                  </div>
-               
-                
-                <div class='col-md-3' id='flipkart' style="display: block;">
-                    <div class='panel panel-default'>
-                        <div class='panel-heading'><h4><span class='glyphicon glyphicon-earphone'>&nbsp;</span>Laptop</h4></div>
-                        
-                        <div class='panel-body'>
-                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Flipkart
-                        </em></small>
-                            <div>
-                                <ul>
-                                    <li>Laptop at BEST Price</li>
-                                    New Arricals!!
-                                    
-                                </ul>
-                                
-                                <a href='https://dl.flipkart.com/dl/laptops-store?affid=abvagehol' onclick="BUY NOW">BUY NOW</a>
-                                <br><br>
-                            </div>
-                         </div>
-                     </div>
-                  </div>
-             
-                
-                <div class='col-md-3' id='flipkart' style="display: block;">
-                    
-                    <div class='panel panel-default'>
-                        <div class='panel-heading'><h4>EXTENDED Warranty For LAPTOPSA</h4></div>
-                        
-                        <div class='panel-body'>
-                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Flipkart
-                        </em></small>
-                            <div>
-                                <ul>
-                                    <li>Give your Laptop a lease of Life.</li>
-                                    <li>Why opt for it?</li>
-                                    <li>How to BUY</li>
-                                    <li>How to claim</li>
-                                </ul>
-                                
-                                <a href='https://dl.flipkart.com/dl/moto-g5-plus-fine-gold-32-gb/p/itmes2zjvwfncxxr?iid=M_2c527cd7-ebc1-4839-80d1-49006e08dfbb_4.R53GL4MNGU&ppt=Homepage&lid=LSTMOBEQHMGED7F9CZ2KTTROW&pid=MOBEQHMGED7F9CZ2&affid=abvagehol&ssid=rc60213dq80000001517409648730&ppn=Homepage' onclick="BUY NOW">BUY NOW</a>
-                                <br><br>
-                            </div>
-                         </div>
-                     </div>
-                  </div>
-               
-                
-                <div class='col-md-3' id='flipkart' style="display: block;">
-                    <div class='panel panel-default'>
-                        <div class='panel-heading'><h4><span class='glyphicon glyphicon-earphone'>&nbsp;</span>BEST Deals on Mobile</h4></div>
-                        
-                        <div class='panel-body'>
-                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Flipkart
-                        </em></small>
-                            <div>
-                                <ul>
-                                    <li>Mobile phones for your BUDGET</li>
-                                    ALL Offers in one Link
-                                    
-                                </ul>
-                                
-                                <a href='https://dl.flipkart.com/dl/mobile-phones-store?affid=abvagehol' onclick="BUY NOW">BUY NOW</a>
+<body>
+<button class="button">
+    
+    <a href='https://dl.flipkart.com/dl/mobiles/~mia1/pr?p%5B%5D=sort%3Drecency_desc&count=40&affid=abvagehol&sid=tyy%2F4io' target='_blank'>
+        <span style="font-weight:bold">
+            BUY Now
+        </span>
+    </a>
+    </button>
+
+</body>
                                 <br><br>
                             </div>
                          </div>
@@ -265,30 +248,20 @@
                   </div>
                 
                 
-               
-                <div class='col-md-3' id='flipkart' style="display: block;">
-                    <div class='panel panel-default'>
-                        <div class='panel-heading'><h4>EXTENDED Warranty For LAPTOPSA</h4></div>
-                        
-                        <div class='panel-body'>
-                            <small><em style="color: orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Flipkart
-                        </em></small>
-                            <div>
-                                <ul>
-                                    <li>Give your Laptop a lease of Life.</li>
-                                    Why opt for it?
-                                    How to BUY
-                                    How to claim
-                                </ul>
-                                
-                                <a href='https://dl.flipkart.com/dl/extended-warranty-laptops-store?affid=abvagehol' onclick="BUY NOW">BUY NOW</a>
-                                <br><br>
-                            </div>
-                         </div>
-                     </div>
-                  </div>
-               
+                
+                
+                
+                
+
+
+                
+                
+                
+                
+                
+                
+            </div>
+            </div>
                 
                 
                 
